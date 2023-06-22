@@ -34,7 +34,7 @@
 
 // CODE HERE
 let speed = 25
-
+console.log(speed)
 
 
 
@@ -55,6 +55,8 @@ let speed = 25
 */
 
 // CODE HERE
+speed=500
+console.log(500)
 
 
 
@@ -76,8 +78,8 @@ let speed = 25
 */
 
 // CODE HERE
-
-
+let favsnack = "Chips";
+console.log(favsnack)
 
 
 
@@ -95,7 +97,8 @@ let speed = 25
 */
 
 // CODE HERE
-
+let faveDrink = "Coke";
+console.log(faveDrink)
 
 
 
@@ -115,7 +118,8 @@ let speed = 25
 */
 
 // CODE HERE
-
+const private = true;
+console.log(private)
 
 
 
@@ -147,6 +151,11 @@ let speed = 25
 */
 
 // CODE HERE
+let netflix = 15;
+let hulu = 7;
+let Disney = 5;
+let YoutubePremium = 10;
+let Peacock = 10;
 
 
 
@@ -165,6 +174,8 @@ let speed = 25
 */
 
 // CODE HERE
+total = (netflix+hulu+Disney+YoutubePremium+Peacock);
+console.log(total)
 
 
 
@@ -190,6 +201,9 @@ let speed = 25
 
 // CODE HERE
 
+hulu = hulu - hulu;
+Peacock= peacock - 5;
+netflix= netflix - 7;
 
 
 
