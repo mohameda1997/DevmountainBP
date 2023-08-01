@@ -18,7 +18,7 @@ let gitDefinition = "Git is a version control system used for keeping track as c
 */
 
 //CODE HERE
-let gitHubDefinition = "Github is a website that allows a central location for developers to store and collaborate on git repos."
+let gitHubDefinition = "Github is a website that allows a central location for developers to store and collaborate on git repos.";
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@ let gitHubDefinition = "Github is a website that allows a central location for d
 */
 
 //CODE HERE
- let gitInitDefinition = "gitinit is a git command that allows to initate a new repository. This allows you to keep track and add files as well as traack changes."
+ let gitInitDefinition = "gitinit is a git command that allows to initate a new repository. This allows you to keep track and add files as well as traack changes.";
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@ let gitHubDefinition = "Github is a website that allows a central location for d
 */
 
 //CODE HERE
-let gitCloneDefinition = "This is a command used to create a local copy of a remote Git repository. It copies all the files, branches, and commit history from the remote repository to the local machine. This allows for easy collaboration, code review, and working on the project locally."
+let gitCloneDefinition = "This is a command used to create a local copy of a remote Git repository. It copies all the files, branches, and commit history from the remote repository to the local machine. This allows for easy collaboration, code review, and working on the project locally.";
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@ let gitCloneDefinition = "This is a command used to create a local copy of a rem
 */
 
 //CODE HERE
-let gitStatusDefinition = "This is a command used to display the current state of the Git repository. It shows information about tracked and untracked files, branch information, and the status of changes made to files. "
+let gitStatusDefinition = "This is a command used to display the current state of the Git repository. It shows information about tracked and untracked files, branch information, and the status of changes made to files. ";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,8 +54,8 @@ let gitStatusDefinition = "This is a command used to display the current state o
 */
 
 //CODE HERE
-let gitAddDefinition = "This is used to stage changes made to files in a Git repository."
-let gitAddCode = " git add ."
+let gitAddDefinition = "This is used to stage changes made to files in a Git repository.";
+let gitAddCode = " git add .";
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -66,8 +66,8 @@ let gitAddCode = " git add ."
 */
 
 //CODE HERE
-let gitCommitDefinition = "The git commit command is used to record the changes made to the files in a Git repository."
-let gitCommitCode = "git commit -m 'initial commit"
+let gitCommitDefinition = "The git commit command is used to record the changes made to the files in a Git repository.";
+let gitCommitCode = "git commit -m 'initial commit";
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -75,4 +75,4 @@ let gitCommitCode = "git commit -m 'initial commit"
 */
 
 //CODE HERE
-let gitPushDefinition = "The 'git push' command is used to upload local commits to a remote repository."
+let gitPushDefinition = "The 'git push' command is used to upload local commits to a remote repository.";

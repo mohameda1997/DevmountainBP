@@ -12,8 +12,10 @@
 */
 
 //CODE HERE
-
-
+function helloWorld() {
+  console.log("Hello World!")
+}
+helloWorld()
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -21,7 +23,7 @@
 */
 
 //CODE HERE
-
+const jsNinja = () => "I am a Javascript ninja!"
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -31,8 +33,10 @@
 */
 
 //CODE HERE
-
-
+function printName (name) {
+  console.log(name);
+}
+printName("Mohamed");
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
@@ -44,8 +48,10 @@
 */
 
 //CODE HERE
-
-
+function greeting(name) {
+  console.log("Hello, "  +  name);
+}
+greeting("Jake.")
 ////////////////// PROBLEM 5 ////////////////////
 
 /*
@@ -58,7 +64,14 @@
 */
 
 //CODE HERE
-
+const compareNums = (num1, num2) => {
+  if (num1 >= num2) {
+    return num1;
+  } else{
+    return num2
+  }
+}
+console.log(compareNums(1,19));
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -69,7 +82,13 @@
 */
 
 //CODE HERE
-
+function add(num1,num2) {
+  num1= Number(num1);
+  num2 = Number(num2);
+  return num1+num2;
+}
+let sum = add(12,13)
+console.log(sum);
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -84,7 +103,7 @@ const exclaim = function(str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+console.log('expression')
 
 
 
@@ -99,7 +118,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// console.log('arrow')
+console.log('arrow')
 // console.log('declaration')
 // console.log('expression')
 
@@ -138,8 +157,17 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
-
+function nameCheck(name) {
+  if (name === "Steven") {
+    return "What's up Steven?";
+  } else if (name === "Bryan") 
+    return ("Hey Bryan!");
+  else {
+    return "Cool name,  " + name + "!"
+  }
+}
+let nameGreeting = nameCheck ("John");
+console.log(nameGreeting);
 ////////////////// PROBLEM 11 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
@@ -151,8 +179,20 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
-
+function faveColorFinder(color) {
+  if (color === "red") {
+    return "red is a great color";
+  } else if (color === "green") {
+    return "green is a solid favorite color";
+  } else if (color === "black") {
+    return "so trendy";
+  } else {
+    return "you need to evaluate your favorite color choice"
+  }
+    
+}
+let colorRating = faveColorFinder("blue")
+  console.log(colorRating)
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
@@ -162,7 +202,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+function printAllNames(names) {
+  for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+  }
+}
+printAllNames(namesArr);
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -173,8 +218,15 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+function thatsOdd(number) {
+if (number / 2 === 0) {
+  return "thats not odd!";
+} else {
+  return "That is odd indeed!"
+}
+}
+let oddChecker = thatsOdd(9)
+console.log(oddChecker)
 ////////////////// PROBLEM 14 ////////////////////
 
 /*
