@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Form</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Registration</header>
+      <form id="registerForm">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <input type="submit" class="button" value="Register">
+      </form>
+      <div class="signup">
+        <input type="submit" class="have-account" value="Already Have An Account?" onclick="directToLogin(event)" />
+      </div>
+    </div>
+  </div>
+  <script src = "register.js"></script>
+  <script src="../node_modules/axios/dist/axios.min.js"></script>
+</body>
+</html>

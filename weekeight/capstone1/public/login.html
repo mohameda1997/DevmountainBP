@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>l
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form id="loginForm">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <input type="submit" class="button" value="Login">
+      </form>
+      <div class="signup">
+        <input type="submit" class="have-account" value="Dont Have An Account?" onclick="directToRegister(event)" />
+      </div>
+    </div>
+  </div>
+  <script src = "login.js"></script>
+  <script src="../node_modules/axios/dist/axios.min.js"></script>
+</body>
+</html>
